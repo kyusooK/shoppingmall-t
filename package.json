@@ -1,1 +1,14 @@
- 
+{
+  "name": "shoppingmall-project",
+  "version": "1.0.0",
+  "description": "Shopping Mall Microservices Project",
+  "scripts": {
+    "setup": "chmod +x init.sh && ./init.sh",
+    "postinstall": "npm run setup",
+    "dev": "echo 'Starting development environment...' && cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "keywords": ["microservices", "shopping-mall", "kubernetes"],
+  "author": "",
+  "license": "ISC"
+} 
