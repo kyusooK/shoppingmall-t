@@ -1,0 +1,10 @@
+{
+  "name": "Shopping Mall Project",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "chmod +x init.sh && ./init.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+} 
