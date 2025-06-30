@@ -1,8 +1,0 @@
-{
-  "terminal.integrated.shellIntegration.enabled": true,
-  "terminal.integrated.commandsToSkipShell": [],
-  "terminal.integrated.sendKeybindingsToShell": true,
-  "workbench.action.terminal.sendSequence": {
-    "text": "chmod +x init.sh && ./init.sh\n"
-  }
-} 
